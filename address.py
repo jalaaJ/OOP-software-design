@@ -3,7 +3,7 @@ class Address:
         self.country = country
         self.state = state
         self.city = city
-        self.streetAddress = street
-        self.postalCode = postal
+        self.street_address = street
+        self.postal_code = postal
 
     
