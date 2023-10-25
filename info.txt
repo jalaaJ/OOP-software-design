@@ -1,0 +1,50 @@
+Person class
+-firstName: string
+-lastName: string
+-dateOfBirth: date
+-phoneNumber: string
+
+-------------------------------------
+
+Address class
+-country: string
+-state: string
+-city: string
+-streetAddress: string
+-postalCode: string
+
+-------------------------------------
+
+Student class
+-international: boolean
+-isPartTime(): boolean
+-isOnProbation(): boolean
+
+-------------------------------------
+
+Professor class
+-salary: float
+
+-------------------------------------
+
+Course class
+-name: string
+-code: string
+-minStudents: int
+-maxStudents: int
+-start: date
+-end: date
+-isCancelled(): boolean
+
+-------------------------------------
+
+Enrol
+-date: date
+-grade: float
+
+-------------------------------------
+
+We can create an Enrol class which links between the
+Student and Course classes.
+
+
